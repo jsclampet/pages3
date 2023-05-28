@@ -21,3 +21,8 @@
   <h4 >{{ images[currentPage].title }}</h4>
   <img [src]="images[currentPage].url" alt="">
 </div>
+
+// custom directive, to replicate elements x amount of times
+<ul *appTimes="5">
+  <li>Hi there!</li>
+</ul>
